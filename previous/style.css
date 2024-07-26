@@ -1,0 +1,42 @@
+
+
+body{
+    font-family: "Teachers", sans-serif;
+}
+
+.box{
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.red{
+    background-color: rgb(144, 172, 24);
+    margin-bottom: 20px;
+    padding: 20px 0 0 20px;
+}
+
+button{
+    padding: 4px 8px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.red button {
+    background-color: red;
+    color: white; 
+}
+
+.yellow button {
+    background-color: white;
+    color: red; 
+}
+
+.yellow{
+    background-color: yellow;
+    margin-top: 10px;
+    padding: 10px 0 0 10px;
+}
